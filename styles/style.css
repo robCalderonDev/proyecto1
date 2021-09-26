@@ -10,23 +10,68 @@
     padding:auto;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
-    border-color: #9C92EB  ;
-    box-shadow: 0 1px 1px  #9C92EB inset, 0 0 8px  #9C92EB ;
+    border-color: #27649B  ;
+    box-shadow: 0 1px 1px  #27649B inset, 0 0 8px  #27649B ;
     
     
     
    
    
 }
+.btn-iniciar{
+    
+    background-color: #549FBC !important;
+    color: whitesmoke;
+    min-width: 120px;
+    border: none;
+    height: 45px;
+    border-radius: 5px;
+    margin: 5px;
+
+}
+.btn-crearCuenta{
+    background-color: #27649B !important;
+    min-width: 120px;
+    border: none;
+    height: 45px;
+    color: whitesmoke;
+    margin: 5px;
+    border-radius: 5px;
+
+}
 .inputab{
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    background-color: #9C92EB !important;
+    background-color: #27649B !important;
     color: whitesmoke;
-    border-color: #9C92EB  !important;
-    box-shadow: 0 1px 1px  #9C92EB inset, 0 0 8px  #9C92EB!important ;
+    border-color: #27649B  !important;
+    box-shadow: 0 1px 1px  #27649B inset, 0 0 8px  #27649B!important ;
     
     font-weight: bolder;
+}
+
+.card{
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 10rem;
+}
+.cards{
+    padding-right: 100px;
+    background-color: yellow;
+}
+.perro{
+    background-color: #82C149;
+    height: 40px;
+    color: whitesmoke;
+    padding-right: 50px !important;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.l6{
+    padding-top: 5px;
+    font-size: 20px;
+    
+    
 }
