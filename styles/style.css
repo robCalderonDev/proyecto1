@@ -18,6 +18,7 @@
    
    
 }
+
 .btn-iniciar{
     
     background-color: #549FBC !important;
@@ -51,16 +52,45 @@
     
     font-weight: bolder;
 }
-
+.tematicas{
+    width: 200px;
+}
 .card{
     
-    margin-left: 20px;
-    margin-top: 20px;
-    width: 10rem;
-    background-color: whitesmoke;
+    width: 100%;
+    margin: 20px;
+    border-radius: 5px;
+    width: 9.5rem;
+    
+    box-shadow:  0px 1px  10px rgba(0, 0, 0, 0.2);
+    transition:  all 400ms ease;
+    
     
  
 }
+.te{
+    background-color: #27649B;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: whitesmoke;
+   
+    
+}
+.card:hover{
+    box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3%);
+}
+.tematica{
+    min-width: 12rem;
+    width: 20rem;
+    height: 200px;
+    margin: 20px;
+    border-radius: 12px;
+    
+   
+    
+}
+
 
 .xd{
     background-color: whitesmoke;
@@ -68,7 +98,10 @@
     
 }
 .xd2{
-margin-left: 70px;
+
+padding-left: 30px;
+
+
 }
 .perro{
     background-color: #82C149;
