@@ -1,0 +1,32 @@
+.logo{
+    width: 200px;
+    margin-top: -90px;
+    margin-bottom: -50px;
+    padding-bottom: -100px;
+}
+.inputa{
+    
+    max-width: 400px!important;
+    padding:auto;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-color: #9C92EB  ;
+    box-shadow: 0 1px 1px  #9C92EB inset, 0 0 8px  #9C92EB ;
+    
+    
+    
+   
+   
+}
+.inputab{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #9C92EB !important;
+    color: whitesmoke;
+    border-color: #9C92EB  !important;
+    box-shadow: 0 1px 1px  #9C92EB inset, 0 0 8px  #9C92EB!important ;
+    
+    font-weight: bolder;
+}
