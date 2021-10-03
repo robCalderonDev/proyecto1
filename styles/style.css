@@ -73,23 +73,37 @@
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     color: whitesmoke;
+    height: 25px;
    
     
 }
 .card:hover{
     box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.2);
     transform: translateY(-3%);
+    
+}
+.tematica:hover{
+    box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3%);
+    filter:brightness(1.5); /* 2 = 200% */ 
+
 }
 .tematica{
     min-width: 12rem;
     width: 20rem;
     height: 200px;
     margin: 20px;
+    padding: 0px;
     border-radius: 12px;
+    transition:  all 500ms ease;
+    box-shadow:  0px 1px  10px rgba(0, 0, 0, 0.4);
+   
     
    
     
 }
+
+
 
 
 .xd{
@@ -116,4 +130,77 @@ padding-left: 30px;
     font-size: 20px;
     
     
+}
+.aut{
+    border-radius: 12px;
+    background-color: #20436E;
+    color: white;
+    font-size: 2rem;
+}
+/* carusel de autores*/
+.rosel{
+    padding: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    
+}
+.contenedor{
+   
+    display: flex;
+    justify-content: center;
+    padding-right: 5px;
+    margin: 2px;
+    margin-bottom: 20px;
+   
+    
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    
+  
+}
+.box img{
+    width: 100%;
+    height: 100%;
+    
+    
+
+}
+.box:hover .capa{
+    transform: scale(1);
+}
+.capa{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    transition: .3s ease;
+    color: whitesmoke;
+}
+.carousel-control-prev-icon {
+    position: absolute;
+    left: -20px;
+    filter: invert(100%);
+}
+.carousel-control-next-icon {
+    position: absolute;
+    right: -20px;
+    filter: invert(100%);
+}
+
+.carousel-control-next,.carousel-control-prev{
+     width: 4%;
+      
 }
