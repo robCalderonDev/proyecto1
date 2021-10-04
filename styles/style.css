@@ -40,6 +40,7 @@
     border-radius: 5px;
 
 }
+
 .inputab{
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
@@ -67,6 +68,10 @@
     
     
  
+}
+.card-img-bot{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 .te{
     background-color: #27649B;
@@ -132,75 +137,24 @@ padding-left: 30px;
     
 }
 .aut{
-    border-radius: 12px;
-    background-color: #20436E;
+    border-radius: 10px;
+    background-color: #2C67AE;
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    
 }
 /* carusel de autores*/
-.rosel{
-    padding: 0px;
-    padding-right: 0px;
-    padding-left: 0px;
+.autores{
+    margin: 10px;
+    width: 12rem;
     
 }
-.contenedor{
-   
-    display: flex;
-    justify-content: center;
-    padding-right: 5px;
-    margin: 2px;
-    margin-bottom: 20px;
-   
+.img-autor{
+    height: 180px;
+}
+.btn-autor1{
+    border: none;
     
 }
 
-.box{
-    width: 200px;
-    height: 200px;
-    position: relative;
-    overflow: hidden;
-    box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 12px;
-    
-  
-}
-.box img{
-    width: 100%;
-    height: 100%;
-    
-    
 
-}
-.box:hover .capa{
-    transform: scale(1);
-}
-.capa{
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 12px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transform: scale(0);
-    transition: .3s ease;
-    color: whitesmoke;
-}
-.carousel-control-prev-icon {
-    position: absolute;
-    left: -20px;
-    filter: invert(100%);
-}
-.carousel-control-next-icon {
-    position: absolute;
-    right: -20px;
-    filter: invert(100%);
-}
-
-.carousel-control-next,.carousel-control-prev{
-     width: 4%;
-      
-}
