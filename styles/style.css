@@ -5,7 +5,7 @@ body{
 }
 .logo{
     width: 200px;
-    margin-top: -90px;
+    margin-top: -80px;
     margin-bottom: -50px;
     padding-bottom: -100px;
 }
@@ -26,7 +26,7 @@ body{
 
 .btn-iniciar{
     
-    background-color: #549FBC !important;
+    background-color: #82C149!important;
     color: whitesmoke;
     min-width: 120px;
     border: none;
@@ -36,7 +36,7 @@ body{
 
 }
 .btn-crearCuenta{
-    background-color: #27649B !important;
+    background-color: #27649B!important;
     min-width: 120px;
     border: none;
     height: 45px;
@@ -106,16 +106,8 @@ body{
     padding: 0px;
     border-radius: 12px;
     transition:  all 500ms ease;
-    box-shadow:  0px 1px  10px rgba(0, 0, 0, 0.4);
-   
-    
-   
-    
+    box-shadow:  0px 1px  10px rgba(0, 0, 0, 0.4);    
 }
-
-
-
-
 .xd{
     background-color: whitesmoke;
    
@@ -216,6 +208,10 @@ ul{
     font-weight: 300;
     color: #bbbbbb;
     display: block;
+    transition: all 0.5 ease;
+}
+.footer-col ul li a:hover{
+    color: white;
 }
 .social-links a{
     display: inline-block;
@@ -245,10 +241,58 @@ ul{
 }
 .derechos{
     margin-top: 20px;
-    height: 25px;
+    height: 30px;
     background-color: #82C149;
     color: white;
+    padding-top: 5px ;
 }
+/*formulario*/
+.container-form{
+    color: white;
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width:400px;
+    border-radius: 10px;
+    font-size: 12px;
+    transition:  all 1ms ease;
+    box-shadow:  0px 0px  10px rgba(0, 0, 0, 0.4);   
+    background-image: radial-gradient(circle at 103.21% 30.63%, #8cc2ba 0, #73b4af 16.67%, #51a1a0 33.33%, #138b8f 50%, #00757f 66.67%, #006374 83.33%, #00566d 100%);}
+
+
+.registers{
+    padding-top: 20px;
+    
+}
+.input-registrarse{
+    border-radius: 10px;
+    height: 30px;
+    border: none;
+    margin: 5px;
+}
+.input-registrarse:focus { 
+    outline: none !important;
+    border-color: #82C149;
+    box-shadow: 0 0 10px #82C149;
+}
+.btn-registrarse2{
+    background-color:#82C149;
+    border: none;
+    color: whitesmoke;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+label.error{
+    color: #E9234D;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/*media queries*/
 
 @media(max-width: 767px){
     .footer-col{
