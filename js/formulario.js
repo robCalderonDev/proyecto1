@@ -30,27 +30,27 @@ $("#form_registro").validate({
     messages:{
         nombre:{
             minlength:"Ingrese un nombre valido ",
-            required:"ingrese un nombre"
+            required:"Ingrese un nombre"
         },
         apellidos:{
-            required:"ingrese sus apellidos",
-            minlength:"ingrese apellidos correctos"
+            required:"Ingrese sus apellidos",
+            minlength:"Ingrese apellidos correctos"
         },
         email1:{
-            required:"ingrese su email",
-            email:"formato de email incorrecto"
+            required:"Ingrese su email",
+            email:"Formato de email incorrecto"
         },
         password:{
-            required:"ingrese una contraseña",
-            minlength:"su contraseña es muy corta"
+            required:"Ingrese una contraseña",
+            minlength:"Su contraseña es muy corta"
 
         },
         password2:{
-            required:"ingrese de nuevo su contraseña",
-            equalTo:"contraseña incorrecta"
+            required:"Ingrese de nuevo su contraseña",
+            equalTo:"Contraseña incorrecta"
         },
         terminos:{
-            required:"acepte los terminos y condiciones",
+            required:"Acepte los terminos y condiciones",
         }
     }
 
@@ -58,11 +58,11 @@ $("#form_registro").validate({
 
 $("#registrar").click(function(){
     if($("#form_registro").valid()==false){
-        alert("porfavor Completar formulario")
+        alert("Porfavor Completar formulario")
         return;
     }
     if($("#form_registro").valid()==true){
-        alert('bienvenido al team ValhallaGeek Disfruta de tu estancia  ');
+        alert('Bienvenido!  ');
         return;
         
     }
